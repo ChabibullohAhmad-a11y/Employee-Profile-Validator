@@ -33,32 +33,41 @@ email_user = clean_email[:at_pos]
 print(f'Email: {clean_email}')
 print(f'Username: {email_user}')
 
+# Create a display name
 display_name = email_user.replace('.', ' ').title()
 print(f'Display name: {display_name}')
 
+# Process phone number
 phone = '123-456-7890'
 phone_clean = phone.replace('-', '')
 print(f'Phone with dashes: {phone}')
 print(f'Phone without dashes: {phone_clean}')
 
+# Process address
 full_address = '123 Main Street, Springfield, IL'
 address_parts = full_address.split(', ')
 print(f'Address parts: {address_parts}')
 
+# Rejoin the address parts
 rejoined = ' | '.join(address_parts)
 print(f'Rejoined: {rejoined}')
 
+
+# Process employee code
 employee_code = 'EMP-2024-SD'
 starts_with_emp = employee_code.startswith('EMP')
 ends_with_com = clean_email.endswith('.com')
 
+# Count occurrences of specific characters
 print(f'Code: {employee_code}')
 print(f'Starts with EMP: {starts_with_emp}')
 print(f'Clean email: {clean_email}')
 print(f'Ends with .com: {ends_with_com}')
 
+# Count occurrences of specific characters
 dot_count = clean_email.count('.')
 dash_count = employee_code.count('-')
 
+# Display the counts
 print(f'Dots in email: {dot_count}')
 print(f'Dashes in code: {dash_count}')
