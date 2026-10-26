@@ -27,3 +27,9 @@
 3. Jalankan perintah berikut di terminal:
    ```bash
    python main.py
+
+
+👤 Author
+Chabibulloh Ahmad
+
+Undergraduate Student of Teknik Informatika - Universitas Siber Muhammadiyah Yogyakarta DIY.
